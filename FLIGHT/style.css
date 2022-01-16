@@ -1,0 +1,75 @@
+.avatar{
+    width: 1600;
+    height: 400;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:Product Sans;
+} 
+.booking-form-box{
+    max-width: 750px;
+    border: 1px solid #ced4da;
+    margin:auto;
+    padding: 10px;
+    border-radius: 4px;
+    position: relative;
+}
+.flex{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+}
+.box-1{
+    width: 20em;
+    height: 2em;
+    padding:10px;
+    border-radius: 4px;
+    border: .5px solid;
+}
+.box-2{
+    width: 20em;
+    height: 2em;
+    padding:10px;
+    border-radius: 4px;
+    border: .5px solid;
+}
+.search-btn{
+    bottom: -1.25rem ;
+    height: 2.5rem;
+    width: 6.375rem;
+    position:absolute;
+    background: rgb(39, 175, 238);
+    border-radius: 50px;
+    border:none;
+    color:white;
+    transition: 0.3s;
+
+}
+.search-btn:hover{
+    background: rgb(7, 128, 184);
+    
+}
+.button-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking-form{
+    padding: 0 20px 20px;
+    margin-left: 80px;
+}
+.booking-form label{
+    position: absolute;
+    margin-bottom: 5px;
+    margin-top:10px;
+    font-size:12px;
+    color:#fff;
+}
+.background{
+    width: 200px;
+    background-position: center;
+    margin-left: 220px;
+}
